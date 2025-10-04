@@ -3,7 +3,6 @@ import { FiArrowUpRight } from "react-icons/fi";
 import LogInStore from "./AuthStore";
 import axios from "axios";
 import { BiLoaderAlt } from "react-icons/bi";
-import { GiBulletImpacts } from "react-icons/gi";
 
 const MainPage = () => {
   const isLoggedIn = LogInStore((state) => state.isLoggedIn);
@@ -121,7 +120,7 @@ const MainPage = () => {
               key={idx}
               className="bg-neutral-800 border border-neutral-700 rounded-xl px-5 py-3 text-gray-200 shadow-sm hover:shadow-md transition"
             >
-              <GiBulletImpactst/> {msg.message}
+            {msg.message}
             </div>
           ))}
         </div>
