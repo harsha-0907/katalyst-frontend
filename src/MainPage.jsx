@@ -69,7 +69,7 @@ const MainPage = () => {
 
 
       {/* Events section grows and scrolls if needed */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 flex-1 overflow-auto mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 flex-1 overflow-auto mb-6 mt-8">
         {events.map((event, idx) => (
           <div
             key={idx}
